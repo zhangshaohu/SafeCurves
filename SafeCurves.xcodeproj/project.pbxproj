@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F03BBCE1926578B00ED6FA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F03BBCD1926578B00ED6FA2 /* Foundation.framework */; };
+		3F03BBD01926578B00ED6FA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F03BBCF1926578B00ED6FA2 /* CoreGraphics.framework */; };
+		3F03BBD21926578B00ED6FA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F03BBD11926578B00ED6FA2 /* UIKit.framework */; };
+		3F03BBD81926578B00ED6FA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F03BBD61926578B00ED6FA2 /* InfoPlist.strings */; };
+		3F03BBDA1926578B00ED6FA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F03BBD91926578B00ED6FA2 /* main.m */; };
+		3F03BBDE1926578B00ED6FA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F03BBDD1926578B00ED6FA2 /* AppDelegate.m */; };
+		3F03BBE11926578B00ED6FA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F03BBDF1926578B00ED6FA2 /* Main.storyboard */; };
+		3F03BBE41926578B00ED6FA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F03BBE31926578B00ED6FA2 /* ViewController.m */; };
+		3F03BBE61926578B00ED6FA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F03BBE51926578B00ED6FA2 /* Images.xcassets */; };
+		3F03BBED1926578B00ED6FA2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F03BBEC1926578B00ED6FA2 /* XCTest.framework */; };
+		3F03BBEE1926578B00ED6FA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F03BBCD1926578B00ED6FA2 /* Foundation.framework */; };
+		3F03BBEF1926578B00ED6FA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F03BBD11926578B00ED6FA2 /* UIKit.framework */; };
+		3F03BBF71926578B00ED6FA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F03BBF51926578B00ED6FA2 /* InfoPlist.strings */; };
+		3F03BBF91926578B00ED6FA2 /* SafeCurvesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F03BBF81926578B00ED6FA2 /* SafeCurvesTests.m */; };
+		3F03BC0B1926583700ED6FA2 /* curve.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3F03BC021926583700ED6FA2 /* curve.csv */; };
+		3F03BC0C1926583700ED6FA2 /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F03BC041926583700ED6FA2 /* MyAnnotation.m */; };
+		3F03BC0E1926583700ED6FA2 /* RBLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F03BC081926583700ED6FA2 /* RBLDetailViewController.m */; };
+		3F03BC16192658C100ED6FA2 /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F03BC14192658C100ED6FA2 /* BLE.m */; };
+		3F03BC18192A76EB00ED6FA2 /* leftcurve.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F03BC17192A76EB00ED6FA2 /* leftcurve.png */; };
+		3F03BC1A192A76EF00ED6FA2 /* rightcurve.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F03BC19192A76EF00ED6FA2 /* rightcurve.png */; };
+		3F03BC1C192AA17900ED6FA2 /* rightcurve20.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F03BC1B192AA17900ED6FA2 /* rightcurve20.png */; };
+		3F03BC1E192AA18100ED6FA2 /* leftcurve20.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F03BC1D192AA18100ED6FA2 /* leftcurve20.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F03BBF01926578B00ED6FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F03BBC21926578B00ED6FA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F03BBC91926578B00ED6FA2;
+			remoteInfo = SafeCurves;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F03BBCA1926578B00ED6FA2 /* SafeCurves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeCurves.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F03BBCD1926578B00ED6FA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F03BBCF1926578B00ED6FA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F03BBD11926578B00ED6FA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F03BBD51926578B00ED6FA2 /* SafeCurves-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SafeCurves-Info.plist"; sourceTree = "<group>"; };
+		3F03BBD71926578B00ED6FA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F03BBD91926578B00ED6FA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F03BBDB1926578B00ED6FA2 /* SafeCurves-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SafeCurves-Prefix.pch"; sourceTree = "<group>"; };
+		3F03BBDC1926578B00ED6FA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F03BBDD1926578B00ED6FA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F03BBE01926578B00ED6FA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F03BBE21926578B00ED6FA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F03BBE31926578B00ED6FA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F03BBE51926578B00ED6FA2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F03BBEB1926578B00ED6FA2 /* SafeCurvesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeCurvesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F03BBEC1926578B00ED6FA2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3F03BBF41926578B00ED6FA2 /* SafeCurvesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SafeCurvesTests-Info.plist"; sourceTree = "<group>"; };
+		3F03BBF61926578B00ED6FA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F03BBF81926578B00ED6FA2 /* SafeCurvesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeCurvesTests.m; sourceTree = "<group>"; };
+		3F03BC021926583700ED6FA2 /* curve.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = curve.csv; sourceTree = "<group>"; };
+		3F03BC031926583700ED6FA2 /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		3F03BC041926583700ED6FA2 /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+		3F03BC071926583700ED6FA2 /* RBLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBLDetailViewController.h; sourceTree = "<group>"; };
+		3F03BC081926583700ED6FA2 /* RBLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBLDetailViewController.m; sourceTree = "<group>"; };
+		3F03BC13192658C100ED6FA2 /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
+		3F03BC14192658C100ED6FA2 /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
+		3F03BC15192658C100ED6FA2 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
+		3F03BC17192A76EB00ED6FA2 /* leftcurve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftcurve.png; sourceTree = "<group>"; };
+		3F03BC19192A76EF00ED6FA2 /* rightcurve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightcurve.png; sourceTree = "<group>"; };
+		3F03BC1B192AA17900ED6FA2 /* rightcurve20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightcurve20.png; sourceTree = "<group>"; };
+		3F03BC1D192AA18100ED6FA2 /* leftcurve20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftcurve20.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F03BBC71926578B00ED6FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F03BBD01926578B00ED6FA2 /* CoreGraphics.framework in Frameworks */,
+				3F03BBD21926578B00ED6FA2 /* UIKit.framework in Frameworks */,
+				3F03BBCE1926578B00ED6FA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F03BBE81926578B00ED6FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F03BBED1926578B00ED6FA2 /* XCTest.framework in Frameworks */,
+				3F03BBEF1926578B00ED6FA2 /* UIKit.framework in Frameworks */,
+				3F03BBEE1926578B00ED6FA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F03BBC11926578B00ED6FA2 = {
+			isa = PBXGroup;
+			children = (
+				3F03BBD31926578B00ED6FA2 /* SafeCurves */,
+				3F03BBF21926578B00ED6FA2 /* SafeCurvesTests */,
+				3F03BBCC1926578B00ED6FA2 /* Frameworks */,
+				3F03BBCB1926578B00ED6FA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F03BBCB1926578B00ED6FA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F03BBCA1926578B00ED6FA2 /* SafeCurves.app */,
+				3F03BBEB1926578B00ED6FA2 /* SafeCurvesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F03BBCC1926578B00ED6FA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F03BC11192658C000ED6FA2 /* BLEFramework */,
+				3F03BBCD1926578B00ED6FA2 /* Foundation.framework */,
+				3F03BBCF1926578B00ED6FA2 /* CoreGraphics.framework */,
+				3F03BBD11926578B00ED6FA2 /* UIKit.framework */,
+				3F03BBEC1926578B00ED6FA2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F03BBD31926578B00ED6FA2 /* SafeCurves */ = {
+			isa = PBXGroup;
+			children = (
+				3F03BBDC1926578B00ED6FA2 /* AppDelegate.h */,
+				3F03BBDD1926578B00ED6FA2 /* AppDelegate.m */,
+				3F03BBDF1926578B00ED6FA2 /* Main.storyboard */,
+				3F03BC021926583700ED6FA2 /* curve.csv */,
+				3F03BC031926583700ED6FA2 /* MyAnnotation.h */,
+				3F03BC041926583700ED6FA2 /* MyAnnotation.m */,
+				3F03BC071926583700ED6FA2 /* RBLDetailViewController.h */,
+				3F03BC081926583700ED6FA2 /* RBLDetailViewController.m */,
+				3F03BC1B192AA17900ED6FA2 /* rightcurve20.png */,
+				3F03BC1D192AA18100ED6FA2 /* leftcurve20.png */,
+				3F03BC19192A76EF00ED6FA2 /* rightcurve.png */,
+				3F03BC17192A76EB00ED6FA2 /* leftcurve.png */,
+				3F03BBE21926578B00ED6FA2 /* ViewController.h */,
+				3F03BBE31926578B00ED6FA2 /* ViewController.m */,
+				3F03BBE51926578B00ED6FA2 /* Images.xcassets */,
+				3F03BBD41926578B00ED6FA2 /* Supporting Files */,
+			);
+			path = SafeCurves;
+			sourceTree = "<group>";
+		};
+		3F03BBD41926578B00ED6FA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F03BBD51926578B00ED6FA2 /* SafeCurves-Info.plist */,
+				3F03BBD61926578B00ED6FA2 /* InfoPlist.strings */,
+				3F03BBD91926578B00ED6FA2 /* main.m */,
+				3F03BBDB1926578B00ED6FA2 /* SafeCurves-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F03BBF21926578B00ED6FA2 /* SafeCurvesTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F03BBF81926578B00ED6FA2 /* SafeCurvesTests.m */,
+				3F03BBF31926578B00ED6FA2 /* Supporting Files */,
+			);
+			path = SafeCurvesTests;
+			sourceTree = "<group>";
+		};
+		3F03BBF31926578B00ED6FA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F03BBF41926578B00ED6FA2 /* SafeCurvesTests-Info.plist */,
+				3F03BBF51926578B00ED6FA2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F03BC11192658C000ED6FA2 /* BLEFramework */ = {
+			isa = PBXGroup;
+			children = (
+				3F03BC12192658C100ED6FA2 /* BLE */,
+			);
+			path = BLEFramework;
+			sourceTree = "<group>";
+		};
+		3F03BC12192658C100ED6FA2 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				3F03BC13192658C100ED6FA2 /* BLE.h */,
+				3F03BC14192658C100ED6FA2 /* BLE.m */,
+				3F03BC15192658C100ED6FA2 /* BLEDefines.h */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F03BBC91926578B00ED6FA2 /* SafeCurves */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F03BBFC1926578B00ED6FA2 /* Build configuration list for PBXNativeTarget "SafeCurves" */;
+			buildPhases = (
+				3F03BBC61926578B00ED6FA2 /* Sources */,
+				3F03BBC71926578B00ED6FA2 /* Frameworks */,
+				3F03BBC81926578B00ED6FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafeCurves;
+			productName = SafeCurves;
+			productReference = 3F03BBCA1926578B00ED6FA2 /* SafeCurves.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F03BBEA1926578B00ED6FA2 /* SafeCurvesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F03BBFF1926578B00ED6FA2 /* Build configuration list for PBXNativeTarget "SafeCurvesTests" */;
+			buildPhases = (
+				3F03BBE71926578B00ED6FA2 /* Sources */,
+				3F03BBE81926578B00ED6FA2 /* Frameworks */,
+				3F03BBE91926578B00ED6FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F03BBF11926578B00ED6FA2 /* PBXTargetDependency */,
+			);
+			name = SafeCurvesTests;
+			productName = SafeCurvesTests;
+			productReference = 3F03BBEB1926578B00ED6FA2 /* SafeCurvesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F03BBC21926578B00ED6FA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = CLOSET;
+				TargetAttributes = {
+					3F03BBEA1926578B00ED6FA2 = {
+						TestTargetID = 3F03BBC91926578B00ED6FA2;
+					};
+				};
+			};
+			buildConfigurationList = 3F03BBC51926578B00ED6FA2 /* Build configuration list for PBXProject "SafeCurves" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F03BBC11926578B00ED6FA2;
+			productRefGroup = 3F03BBCB1926578B00ED6FA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F03BBC91926578B00ED6FA2 /* SafeCurves */,
+				3F03BBEA1926578B00ED6FA2 /* SafeCurvesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F03BBC81926578B00ED6FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F03BC1E192AA18100ED6FA2 /* leftcurve20.png in Resources */,
+				3F03BC0B1926583700ED6FA2 /* curve.csv in Resources */,
+				3F03BC1C192AA17900ED6FA2 /* rightcurve20.png in Resources */,
+				3F03BC18192A76EB00ED6FA2 /* leftcurve.png in Resources */,
+				3F03BBE61926578B00ED6FA2 /* Images.xcassets in Resources */,
+				3F03BC1A192A76EF00ED6FA2 /* rightcurve.png in Resources */,
+				3F03BBD81926578B00ED6FA2 /* InfoPlist.strings in Resources */,
+				3F03BBE11926578B00ED6FA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F03BBE91926578B00ED6FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F03BBF71926578B00ED6FA2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F03BBC61926578B00ED6FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F03BBE41926578B00ED6FA2 /* ViewController.m in Sources */,
+				3F03BBDE1926578B00ED6FA2 /* AppDelegate.m in Sources */,
+				3F03BC0C1926583700ED6FA2 /* MyAnnotation.m in Sources */,
+				3F03BC16192658C100ED6FA2 /* BLE.m in Sources */,
+				3F03BC0E1926583700ED6FA2 /* RBLDetailViewController.m in Sources */,
+				3F03BBDA1926578B00ED6FA2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F03BBE71926578B00ED6FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F03BBF91926578B00ED6FA2 /* SafeCurvesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F03BBF11926578B00ED6FA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F03BBC91926578B00ED6FA2 /* SafeCurves */;
+			targetProxy = 3F03BBF01926578B00ED6FA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F03BBD61926578B00ED6FA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F03BBD71926578B00ED6FA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F03BBDF1926578B00ED6FA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F03BBE01926578B00ED6FA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F03BBF51926578B00ED6FA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F03BBF61926578B00ED6FA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F03BBFA1926578B00ED6FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F03BBFB1926578B00ED6FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F03BBFD1926578B00ED6FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SafeCurves/SafeCurves-Prefix.pch";
+				INFOPLIST_FILE = "SafeCurves/SafeCurves-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F03BBFE1926578B00ED6FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SafeCurves/SafeCurves-Prefix.pch";
+				INFOPLIST_FILE = "SafeCurves/SafeCurves-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3F03BC001926578B00ED6FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SafeCurves.app/SafeCurves";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SafeCurves/SafeCurves-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SafeCurvesTests/SafeCurvesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3F03BC011926578B00ED6FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SafeCurves.app/SafeCurves";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SafeCurves/SafeCurves-Prefix.pch";
+				INFOPLIST_FILE = "SafeCurvesTests/SafeCurvesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F03BBC51926578B00ED6FA2 /* Build configuration list for PBXProject "SafeCurves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F03BBFA1926578B00ED6FA2 /* Debug */,
+				3F03BBFB1926578B00ED6FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F03BBFC1926578B00ED6FA2 /* Build configuration list for PBXNativeTarget "SafeCurves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F03BBFD1926578B00ED6FA2 /* Debug */,
+				3F03BBFE1926578B00ED6FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F03BBFF1926578B00ED6FA2 /* Build configuration list for PBXNativeTarget "SafeCurvesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F03BC001926578B00ED6FA2 /* Debug */,
+				3F03BC011926578B00ED6FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F03BBC21926578B00ED6FA2 /* Project object */;
+}
